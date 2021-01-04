@@ -54,7 +54,7 @@ const userSchema = new mongoose.Schema(
       others:{
         type:String
       }, 
-     },
+    },
 
     experience:[
       {
@@ -67,7 +67,7 @@ const userSchema = new mongoose.Schema(
         },
         jobRole:{
           type:String
-      },
+        },
         specialization:{
           type:String
         },
@@ -86,11 +86,6 @@ const userSchema = new mongoose.Schema(
       type: Boolean
     },
 
-    resume:{
-        type: Buffer
-    },
-
-
     batch:{
       type:Number,
       required:true
@@ -100,7 +95,7 @@ const userSchema = new mongoose.Schema(
 
     phone:{
       type:Number,
-     }
+    }
   },
 
   {
